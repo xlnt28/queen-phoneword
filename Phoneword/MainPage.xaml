@@ -1,18 +1,60 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Phoneword.MainPage">
-    <VerticalStackLayout Spacing="15" Padding="20">
-        <Label Text = "Enter a Phoneword"
-                FontSize ="20"/>
-        <Entry x:Name = "PhoneNumberText"
-                Text = "1-555-NETMAUI" />
-        <Button x:Name = "TranslateButton"
-                Text = "Translate"
-                Clicked = "OnTranslate"/>
-        <Button x:Name = "CallButton"
-                Text = "Call"
-                IsEnabled = "False"
-                Clicked = "OnCall"/>
-    </VerticalStackLayout>
+             x:Class="Phoneword.MainPage"
+             BackgroundColor="{AppThemeBinding Light=#FFF7FB, Dark=#1E1320}">
+    <ScrollView>
+        <VerticalStackLayout Spacing="18" Padding="24,28">
+            <Image Source="phoneword_illustration.svg"
+                   HeightRequest="180"
+                   Aspect="AspectFit"
+                   HorizontalOptions="Center" />
+
+            <Border StrokeThickness="1"
+                    StrokeShape="RoundRectangle 20"
+                    Stroke="{AppThemeBinding Light=#F3C5DB, Dark=#7F4464}"
+                    Background="{AppThemeBinding Light=#FFFFFF, Dark=#2B1A2E}"
+                    Padding="20">
+                <VerticalStackLayout Spacing="14">
+                    <Label Text="Phoneword Translator"
+                           FontSize="28"
+                           FontAttributes="Bold"
+                           TextColor="{AppThemeBinding Light=#7C2F59, Dark=#F9D4E7}" />
+
+                    <Label Text="Type a word-style number like 1-555-NETMAUI and convert it instantly."
+                           FontSize="14"
+                           TextColor="{AppThemeBinding Light=#6A5A64, Dark=#D7C4D1}" />
+
+                    <Label Text="Enter a Phoneword"
+                           FontAttributes="Bold"
+                           FontSize="15"
+                           Margin="0,4,0,0" />
+
+                    <Entry x:Name="PhoneNumberText"
+                           Text="1-555-NETMAUI"
+                           Placeholder="1-800-FLOWERS"
+                           ClearButtonVisibility="WhileEditing"
+                           BackgroundColor="{AppThemeBinding Light=#FFF3F8, Dark=#3A253D}"
+                           Margin="0,0,0,4" />
+
+                    <HorizontalStackLayout Spacing="10">
+                        <Button x:Name="TranslateButton"
+                                Text="Translate"
+                                Clicked="OnTranslate"
+                                HorizontalOptions="Fill"
+                                WidthRequest="140" />
+
+                        <Button x:Name="CallButton"
+                                Text="Call"
+                                IsEnabled="False"
+                                Clicked="OnCall"
+                                BackgroundColor="{AppThemeBinding Light=#F1DDE7, Dark=#5A3B52}"
+                                TextColor="{AppThemeBinding Light=#4A2A3E, Dark=#F5E7EF}"
+                                HorizontalOptions="Fill"
+                                WidthRequest="140" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
