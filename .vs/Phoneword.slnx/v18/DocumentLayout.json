@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ADET\\Phoneword\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AC9D43-FA02-390B-A2E3-E53926D42790}|Phoneword\\Phoneword.csproj|e:\\adet\\phoneword\\phoneword\\phonewordtranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AC9D43-FA02-390B-A2E3-E53926D42790}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\phonewordtranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AC9D43-FA02-390B-A2E3-E53926D42790}|Phoneword\\Phoneword.csproj|e:\\adet\\phoneword\\phoneword\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AC9D43-FA02-390B-A2E3-E53926D42790}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AC9D43-FA02-390B-A2E3-E53926D42790}|Phoneword\\Phoneword.csproj|e:\\adet\\phoneword\\phoneword\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2AC9D43-FA02-390B-A2E3-E53926D42790}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AC9D43-FA02-390B-A2E3-E53926D42790}|Phoneword\\Phoneword.csproj|e:\\adet\\phoneword\\phoneword\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C2AC9D43-FA02-390B-A2E3-E53926D42790}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "E:\\ADET\\Phoneword\\Phoneword\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Phoneword\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "E:\\ADET\\Phoneword\\Phoneword\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Phoneword\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-05T13:55:31.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\ADET\\Phoneword\\Phoneword\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Phoneword\\MainPage.xaml.cs",
+              "ToolTip": "E:\\ADET\\Phoneword\\Phoneword\\MainPage.xaml.cs",
+              "RelativeToolTip": "Phoneword\\MainPage.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:48:59.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\ADET\\Phoneword\\Phoneword\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Phoneword\\MainPage.xaml",
+              "ToolTip": "E:\\ADET\\Phoneword\\Phoneword\\MainPage.xaml",
+              "RelativeToolTip": "Phoneword\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-04T10:49:31.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhonewordTranslator.cs",
+              "DocumentMoniker": "E:\\ADET\\Phoneword\\Phoneword\\PhonewordTranslator.cs",
+              "RelativeDocumentMoniker": "Phoneword\\PhonewordTranslator.cs",
+              "ToolTip": "E:\\ADET\\Phoneword\\Phoneword\\PhonewordTranslator.cs",
+              "RelativeToolTip": "Phoneword\\PhonewordTranslator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:48:26.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
